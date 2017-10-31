@@ -1,4 +1,5 @@
 --test
+use student;
 select *
 from
 student
