@@ -1,0 +1,8 @@
+use northwind;
+select
+[EmployeeID]
+,[ShipCity]
+,rank() over
+(order by [EmployeeID])
+from
+[dbo].[Orders]
