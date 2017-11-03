@@ -1,3 +1,4 @@
+--windowing functions
 use northwind;
 select
 [EmployeeID]
